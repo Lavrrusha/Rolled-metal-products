@@ -331,15 +331,16 @@ svg * {
   padding: 15px 0;
 }
 .header__navigation {
+  padding-left: 25px;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
 }
 .header__list {
   padding: 0;
   margin: 0;
   list-style: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .header__item {
@@ -357,12 +358,10 @@ svg * {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.hero__grid-left {
-  position: relative;
-  z-index: 1;
-}
 .hero__title {
   margin: 0;
+  position: relative;
+  z-index: 1;
   font-family: var(--font-family);
   font-weight: 900;
   font-size: 36px;
@@ -381,7 +380,7 @@ svg * {
   background: var(--color-bg);
   border-radius: 10px;
   font-size: 20px;
-  line-height: 160%;
+  line-height: 1.6;
   justify-content: center;
   align-items: center;
   width: -moz-max-content;
@@ -391,5 +390,5 @@ svg * {
 }
 .hero__image {
   position: absolute;
-  right: 300px;
+  left: 45%;
 }/*# sourceMappingURL=main.css.map */
