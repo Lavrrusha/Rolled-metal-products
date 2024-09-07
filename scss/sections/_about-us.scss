@@ -1,0 +1,13 @@
+.about-us {
+  &__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 337px 631px;
+    gap: 180px;
+    justify-content: space-between;
+  }
+}

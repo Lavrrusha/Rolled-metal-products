@@ -320,11 +320,20 @@ svg * {
 .description {
   margin: 0;
   padding: 0;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.6;
   font-family: var(--font-family);
   color: var(--color-text);
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  color: var(--color-accent);
 }
 
 .header {
@@ -370,6 +379,7 @@ svg * {
   margin-bottom: 25px;
 }
 .hero__description {
+  font-weight: 500;
   margin-bottom: 18px;
   width: 364px;
 }
@@ -387,8 +397,20 @@ svg * {
   width: max-content;
   color: #fff;
   margin-left: 47px;
+  margin-bottom: 120px;
 }
 .hero__image {
   position: absolute;
   left: 45%;
+}
+
+.about-us__title {
+  display: flex;
+  flex-direction: column;
+}
+.about-us__grid {
+  display: grid;
+  grid-template-columns: 337px 631px;
+  gap: 180px;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
