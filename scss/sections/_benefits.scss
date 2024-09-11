@@ -1,0 +1,51 @@
+.benefits {
+    padding-top: 149px;
+    padding-bottom: 38px;
+    background: var(--color-section);
+
+    &__title {
+        color: var(--white);
+        font-family: var(--font-family);
+    }
+
+
+    &__name {
+        margin: 0;
+        font-family: var(--font-family);
+        font-weight: 700;
+        font-size: 24px;
+        color: var(--white);
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        border-left: 2px solid var(--color-number);
+        gap: 34px;
+    }
+
+    &__number {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--color-number);
+    }
+
+    &__description {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.6;
+        color: var(--white);
+        font-family: var(--font-family);
+        text-align: start;
+    }
+}

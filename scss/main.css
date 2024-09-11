@@ -3,8 +3,10 @@
   --font-family: "Montserrat", sans-serif;
   --color-accent: #1D449F;
   --color-second: #5176CF;
+  --color-section: #2E4476;
   --color-text: #757575;
   --color-bg: #EE7115;
+  --color-number: #eccc15;
   --white: #fff;
 }
 
@@ -325,6 +327,7 @@ svg * {
   line-height: 1.6;
   font-family: var(--font-family);
   color: var(--color-text);
+  text-align: justify;
 }
 
 .title {
@@ -413,4 +416,95 @@ svg * {
   grid-template-columns: 337px 631px;
   gap: 180px;
   justify-content: space-between;
+}
+
+.benefits {
+  padding-top: 149px;
+  padding-bottom: 38px;
+  background: var(--color-section);
+}
+.benefits__title {
+  color: var(--white);
+  font-family: var(--font-family);
+}
+.benefits__name {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white);
+}
+.benefits__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid var(--color-number);
+  gap: 34px;
+}
+.benefits__number {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-number);
+}
+.benefits__description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--white);
+  font-family: var(--font-family);
+  text-align: start;
+}
+
+.photo-content__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-row: 1fr 1fr;
+}
+
+.services {
+  background: var(--color-section);
+}
+.services__grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.services__title {
+  padding-top: 76px;
+  color: var(--white);
+}
+.services__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  padding-top: 189px;
+  padding-bottom: 43px;
+  display: flex;
+  justify-content: space-between;
+}
+.services__item {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border-left: 2px solid var(--color-number);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.services__description {
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  text-align: start;
+  width: 213px;
 }/*# sourceMappingURL=main.css.map */
