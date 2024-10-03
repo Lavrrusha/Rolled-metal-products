@@ -39,6 +39,11 @@
     color: #fff;
     margin-left: 47px;
     margin-bottom: 120px;
+     transition: all 800ms ease; 
+  }
+
+  &__button:hover {
+    transform: scale(1.07);
   }
 
   &__image {

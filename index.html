@@ -17,11 +17,9 @@
 
             <nav class="header__navigation">
 
-                <div>
-                    <a class="header__logotype" href="#">
-                        <img src="./img/logotype.svg" alt="логотип" width="150" height="70" loading="lazy">
-                    </a>
-                </div>
+                <a class="header__logotype" href="#">
+                    <img src="./img/logotype.svg" alt="логотип" width="150" height="70" loading="lazy">
+                </a>
 
                 <ul class="header__list">
 
@@ -93,7 +91,7 @@
                 </h2>
 
                 <div class="about-us__grid">
-                    <p>
+                    <p class="about-us__advance">
                         Наша цель не только продать свою продукцию, а помочь каждому клиенту выгодно решить свою задачу.
                     </p>
 
@@ -111,77 +109,92 @@
 
         <section class="benefits">
             <div class="wrapper">
-                <ul class="benefits__list">
-                    <li class="benefits__item">
+
+                <div class="benefits__grid">
+                    <div class="benefits__column">
                         <h2 class="benefits__title title">Продукция</h2>
                         <p class="benefits__description description">Большой выбор нержавеющего, цветного и черного
                             металлопроката производства ведущих
                             металлургических предприятий.</p>
-                    </li>
+                    </div>
 
-                    <li class="benefits__item">
-                        <span class="benefits__number">01.</span>
-                        <h3 class="benefits__name">Нержавеющий металлопрокат</h3>
-                        <p class="benefits__description description">Востребован разными отраслями промышленности и
-                            строительного сектора из-за своей высокой
-                            прочности, долговечности, жаростойкости, устойчивости перед коррозийными процессами</p>
-                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="19" cy="19" r="18" stroke="#ECCC15" stroke-width="2" />
-                            <path d="M15 8.75556L24 17.7556L15 27" stroke="#ECCC15" stroke-width="3" />
-                        </svg>
-                    </li>
+                    <ul class="benefits__list">
+                        <li class="benefits__item">
+                            <div>
+                                <span class="benefits__number">01.</span>
+                                <h3 class="benefits__name">Нержавеющий металлопрокат</h3>
+                                <p class="benefits__description description">Востребован разными отраслями
+                                    промышленности и
+                                    строительного сектора из-за своей высокой
+                                    прочности, долговечности, жаростойкости, устойчивости перед коррозийными процессами
+                                </p>
+                            </div>
+                            <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="19" cy="19" r="18" stroke="#ECCC15" stroke-width="2" />
+                                <path d="M15 8.75556L24 17.7556L15 27" stroke="#ECCC15" stroke-width="3" />
+                            </svg>
+                        </li>
 
-                    <li class="benefits__item">
-                        <span class="benefits__number">02.</span>
-                        <h3 class="benefits__name">Цветной металлопрокат</h3>
-                        <p class="benefits__description description">Наиболее распространенными цветными металлами
-                            являются медь, алюминий, цинк, олово, титан, свинец и другие.</p>
-                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="19" cy="19" r="18" stroke="#ECCC15" stroke-width="2" />
-                            <path d="M15 8.75556L24 17.7556L15 27" stroke="#ECCC15" stroke-width="3" />
-                        </svg>
-                    </li>
+                        <li class="benefits__item">
+                            <div>
+                                <span class="benefits__number">02.</span>
+                                <h3 class="benefits__name">Цветной металлопрокат</h3>
+                                <p class="benefits__description description">Наиболее распространенными цветными
+                                    металлами
+                                    являются медь, алюминий, цинк, олово, титан, свинец и другие.</p>
+                            </div>
+                            <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="19" cy="19" r="18" stroke="#ECCC15" stroke-width="2" />
+                                <path d="M15 8.75556L24 17.7556L15 27" stroke="#ECCC15" stroke-width="3" />
+                            </svg>
+                        </li>
 
-                    <li class="benefits__item">
-                        <span class="benefits__number">03.</span>
-                        <h3 class="benefits__name">Черный металлопрокат</h3>
-                        <p class="benefits__description description">Материалы обладают высокой прочностью, и при этом
-                            имеют умеренную цену и легкодоступны в больших количествах.</p>
-                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <circle cx="19" cy="19" r="18" stroke="#ECCC15" stroke-width="2" />
-                            <path d="M15 8.75556L24 17.7556L15 27" stroke="#ECCC15" stroke-width="3" />
-                        </svg>
-                    </li>
-                </ul>
+                        <li class="benefits__item">
+                            <div>
+                                <span class="benefits__number">03.</span>
+                                <h3 class="benefits__name">Черный металлопрокат</h3>
+                                <p class="benefits__description description">Материалы обладают высокой прочностью, и
+                                    при
+                                    этом
+                                    имеют умеренную цену и легкодоступны в больших количествах.</p>
+                            </div>
+                            <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="19" cy="19" r="18" stroke="#ECCC15" stroke-width="2" />
+                                <path d="M15 8.75556L24 17.7556L15 27" stroke="#ECCC15" stroke-width="3" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </section>
 
         <section class="photo-content">
 
-            <div class="wrapper">
+            <ul class="photo-content__list">
+                <li class="photo-content__item">
+                    <img src="./img/photo-content/photo-1-big.jpg" width="627" height="415" alt="photo-1"
+                        loading="lazy">
+                </li>
 
-                <ul class="photo-content__list">
-                    <li class="photo-content__item">
-                        <img src="./img/photo-content/photo-1-big.jpg" alt="photo-" loading="lazy">
-                    </li>
+                <li class="photo-content__item photo-content__item--span">
+                    <img src="./img/photo-content/photo-2-x.jpg" width="812" height="172" alt="photo-2" loading="lazy">
+                </li>
 
-                    <li class="photo-content__item">
-                        <img src="./img/photo-content/photo-2-x.jpg" alt="photo-2" loading="lazy">
-                    </li>
+                <li class="photo-content__item">
+                    <img src="./img/photo-content/photo-3.jpg" width="288" height="229" alt="photo-3" loading="lazy">
+                </li>
 
-                    <li class="photo-content__item">
-                        <img src="./img/photo-content/photo-3.jpg" alt="photo-3" loading="lazy">
-                    </li>
+                <li class="photo-content__item">
+                    <img src="./img/photo-content/photo-4.jpg" width="288" height="229" alt="photo-4" loading="lazy">
+                </li>
 
-                    <li class="photo-content__item">
-                        <img src="./img/photo-content/photo-4.jpg" alt="photo-4" loading="lazy">
-                    </li>
-
-                    <li class="photo-content__item">
-                        <img src="./img/photo-content/photo-5.jpg" alt="photo-5" loading="lazy">
-                    </li>
-                </ul>
-            </div>
+                <li class="photo-content__item">
+                    <img src="./img/photo-content/photo-5.jpg" width="236" height="" alt="photo-5" loading="lazy">
+                </li>
+            </ul>
 
         </section>
 
@@ -195,7 +208,8 @@
 
                     <ul class="services__list">
                         <li class="services__item">
-                            <p class="services__description description">Изготовление и установка ограждений из нержавеющей стали</p>
+                            <p class="services__description description">Изготовление и установка ограждений из
+                                нержавеющей стали</p>
                             <p class="services__description description">Изготовление металлоконструкций</p>
                         </li>
 
