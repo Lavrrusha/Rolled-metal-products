@@ -1,0 +1,89 @@
+.footer {
+  background: var(--color-section);
+  padding-top: 52px;
+
+  &__flex {
+    display: flex;
+    gap: 43px;
+  }
+
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-bg);
+    margin-top: -100px;
+    padding-bottom: 15px;
+    justify-content: flex-end;
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: var(--white);
+  }
+
+  &__tel {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: var(--white);
+  }
+
+  &__mail {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--white);
+  }
+
+  &__address {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.1em;
+    color: var(--white);
+  }
+
+  &__box {
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    margin-bottom: 37px;
+  }
+
+
+  &__copyrite {
+    margin: 0;
+    margin-bottom: 7px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: var(--white);
+  }
+
+  &__description {
+    margin: 0;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    color: var(--white);
+    padding-bottom: 12px;
+  }
+}

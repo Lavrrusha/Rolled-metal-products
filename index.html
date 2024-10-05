@@ -24,19 +24,19 @@
                 <ul class="header__list">
 
                     <li class="header__item">
-                        <a href="#">О компании</a>
+                        <a href="#about-us">О компании</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#">Продукция</a>
+                        <a href="#benefits">Продукция</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#">Услуги</a>
+                        <a href="#services">Услуги</a>
                     </li>
 
                     <li class="header__item">
-                        <a href="#">Контакты</a>
+                        <a href="#footer">Контакты</a>
                     </li>
 
                 </ul>
@@ -81,7 +81,7 @@
 
         </section>
 
-        <section class="about-us">
+        <section id="about-us" class="about-us">
 
             <div class="wrapper">
                 <h2 class="about-us__title title">О компании
@@ -107,7 +107,7 @@
             </div>
         </section>
 
-        <section class="benefits">
+        <section id="benefits" class="benefits">
             <div class="wrapper">
 
                 <div class="benefits__grid">
@@ -173,32 +173,32 @@
 
         <section class="photo-content">
 
+
             <ul class="photo-content__list">
                 <li class="photo-content__item">
-                    <img src="./img/photo-content/photo-1-big.jpg" width="627" height="415" alt="photo-1"
-                        loading="lazy">
-                </li>
-
-                <li class="photo-content__item photo-content__item--span">
-                    <img src="./img/photo-content/photo-2-x.jpg" width="812" height="172" alt="photo-2" loading="lazy">
+                    <img src="./img/photo-content/photo-1-big.jpg" alt="photo-1" loading="lazy">
                 </li>
 
                 <li class="photo-content__item">
-                    <img src="./img/photo-content/photo-3.jpg" width="288" height="229" alt="photo-3" loading="lazy">
+                    <img src="./img/photo-content/photo-2-x.jpg" alt="photo-2" loading="lazy">
                 </li>
 
                 <li class="photo-content__item">
-                    <img src="./img/photo-content/photo-4.jpg" width="288" height="229" alt="photo-4" loading="lazy">
+                    <img src="./img/photo-content/photo-3.jpg" alt="photo-3" loading="lazy">
                 </li>
 
                 <li class="photo-content__item">
-                    <img src="./img/photo-content/photo-5.jpg" width="236" height="" alt="photo-5" loading="lazy">
+                    <img src="./img/photo-content/photo-4.jpg" alt="photo-4" loading="lazy">
+                </li>
+
+                <li class="photo-content__item">
+                    <img src="./img/photo-content/photo-5.jpg" alt="photo-5" loading="lazy">
                 </li>
             </ul>
 
         </section>
 
-        <section class="services">
+        <section id="services" class="services">
 
             <div class="wrapper">
 
@@ -252,14 +252,86 @@
                         <img class="privilege__image" src="./img/logo-content.jpg" width="220" height="53"
                             alt="логотип контента" loading="lazy">
 
-                        <p class="privilege__description description">С 2022 года наша компания аккредитована на специализированной электронной площадке «АСТ ГОЗ». </p>
+                        <p class="privilege__description description">С 2022 года наша компания аккредитована на
+                            специализированной электронной площадке «АСТ ГОЗ». </p>
 
                     </div>
                 </div>
             </div>
         </section>
-
     </main>
+
+    <footer id="footer" class="footer">
+
+        <div class="wrapper">
+
+            <div class="footer__flex">
+
+                <div class="footer__contacts">
+
+                    <div>
+                        <a class="footer__tel" href="tel:+3433835993">+7 (343) 383-59-93</a> <br>
+
+                        <a class="footer__tel" href="tel:+9221082455">+7 (922) 108-24-55</a>
+                    </div>
+
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M28.7143 19.9999C28.714 21.689 28.2147 23.3404 27.2791 24.7467C26.3434 26.153 25.013 27.2515 23.4551 27.9043C21.8972 28.557 20.1812 28.7349 18.5225 28.4156C16.8638 28.0962 15.3365 27.294 14.1322 26.1095C12.928 24.925 12.1006 23.4111 11.7539 21.7579C11.4072 20.1047 11.5567 18.386 12.1836 16.8175C12.8105 15.249 13.8869 13.9007 15.2775 12.9419C16.6682 11.9831 18.3111 11.4566 20 11.4284C21.1376 11.4095 22.2675 11.6172 23.324 12.0394C24.3805 12.4617 25.3423 13.0901 26.1535 13.8879C26.9646 14.6857 27.6088 15.637 28.0484 16.6864C28.4881 17.7357 28.7144 18.8621 28.7143 19.9999Z"
+                            stroke="white" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M28.7143 19.9999V23.7142C28.7143 33.6856 44.3428 24.2856 36.1428 10.7428C34.4917 7.92288 32.1351 5.58129 29.3047 3.94819C26.4743 2.31509 23.2676 1.44672 20 1.42847C17.2547 1.43695 14.5455 2.05394 12.0673 3.23503C9.58913 4.41612 7.40361 6.13194 5.66806 8.25898C3.93252 10.386 2.69012 12.8714 2.0303 15.5362C1.37048 18.2009 1.30964 20.9789 1.85217 23.67C2.3947 26.3611 3.5271 28.8984 5.16786 31.0994C6.80862 33.3004 8.91693 35.1103 11.341 36.3987C13.7651 37.6872 16.4448 38.4222 19.187 38.5508C21.9292 38.6795 24.6659 38.1986 27.2 37.1428"
+                            stroke="white" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <div>
+                        <a class="footer__mail" href="mailto:zakaz@rek-met.ru">zakaz@rek-met.ru</a>
+                    </div>
+
+                    <svg width="28" height="39" viewBox="0 0 28 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M26.8571 13.2859C26.8571 20.4001 14 37.5716 14 37.5716C14 37.5716 1.14282 20.4001 1.14282 13.2859C1.14282 9.87593 2.49741 6.60566 4.90859 4.19448C7.31977 1.7833 10.59 0.428711 14 0.428711C17.4099 0.428711 20.6802 1.7833 23.0913 4.19448C25.5025 6.60566 26.8571 9.87593 26.8571 13.2859Z"
+                            stroke="white" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M13.9999 17.5717C16.3669 17.5717 18.2857 15.6529 18.2857 13.286C18.2857 10.919 16.3669 9.00024 13.9999 9.00024C11.633 9.00024 9.71423 10.919 9.71423 13.286C9.71423 15.6529 11.633 17.5717 13.9999 17.5717Z"
+                            stroke="white" stroke-width="1.71429" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                    <div>
+                        <address class="footer__address">г. Екатеринбург,
+                            пер. Волчанский, 2а</address>
+                    </div>
+                </div>
+
+                <div class="footer__right">
+
+                    <div class="footer__box">
+
+                        <img src="./img/map.jpg" width="476" height="252" alt="карта" loading="lazy">
+
+                        <ul class="footer__list">
+
+                            <li class="footer__item"><a href="#about-us">О компании</a></li>
+                            <li class="footer__item"><a href="#benefits">Продукция</a></li>
+                            <li class="footer__item"><a href="#services">Услуги</a></li>
+                            <li class="footer__item"><a href="#footer">Контакты</a></li>
+
+                        </ul>
+                    </div>
+
+
+                    <p class="footer__copyrite">© 2023 ООО «РЕКМЕТ»</p>
+
+                    <p class="footer__description">Любое использование либо копирование материалов сайта,
+                        элементов дизайна и оформления допускается лишь с разрешения правообладателя и только со
+                        ссылкой
+                        на источник</p>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
 </body>
 
