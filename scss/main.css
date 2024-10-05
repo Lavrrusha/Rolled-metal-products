@@ -407,6 +407,10 @@ svg * {
   color: var(--color-accent);
   margin-bottom: 25px;
 }
+.hero__icon {
+  position: absolute;
+  top: 345px;
+}
 .hero__description {
   font-weight: 500;
   margin-bottom: 18px;
